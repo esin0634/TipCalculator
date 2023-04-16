@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Space Mono', monospace;
+
+}
+
+/* 
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%) */
+
+
+body{
+  background-color: hsl(185, 41%, 84%);
+  font-size: 13px;
+}
+
+.logo h1 {
+  font-family: 'Space Mono', monospace;
+
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 9px;
+
+
+}
+
+.main-box{
+  background-color: hsl(0, 0%, 100%);
+
+  border-radius: 20px;
+
+}
+
+.tip-amount-box{
+  background-color:hsl(183, 100%, 15%) ;
+  border-radius: 20px;
+}
+
+
+.tipPercentage {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+ 
+}
+
+
+.reset-btn{
+  border-radius: 5px;
+  color:hsla(186, 11%, 18%, 0.264) ;
+  background-color: hsla(185, 42%, 53%, 0.639);
+  border-style: none;
+  font-size: 15px;
+
+}
+
+.money-number-style{
+  font-size: xx-large;
+  color: hsl(176, 65%, 69%);
+  font-weight: 700;
+
+}
+
+.text-grey{
+  color: hsl(184, 14%, 56%);
+}
+
+.tipPercentage.active {
+  background-color: #85c9c7;
+  color: #fff;
+}
+
+.input-style{
+  border:none;
+  background-color: hsla(185, 10%, 74%, 0.347);
+  padding: 0.4rem;
+  border-radius: 5px;
+}
